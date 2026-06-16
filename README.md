@@ -2,7 +2,7 @@
 ComfyUI workflow Dockerized via [comfyui-wizard](https://comfy.getrunpod.io).
 Submission: https://comfy.getrunpod.io/dashboard/submissions/kd7eks6dpn8s91nf7ma0jh73y988s8by
 ## Build it yourself
-```bash
+```bash 
 docker build -t my-comfy-workflow .
 docker run --rm --gpus all -p 8188:8188 my-comfy-workflow
 ```
